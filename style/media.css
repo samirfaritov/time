@@ -1,0 +1,110 @@
+@media screen and (max-width: 376px) {
+    .wrapper {
+        height: 200px;
+        width: 357px;
+        position: relative;
+        background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+        border-radius: 10px;
+        cursor: default;
+        animation: animate 1.5s linear infinite;
+    }
+
+    .q {
+        width: 145px;
+        height: 100px;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper .display {
+        z-index: 999;
+        height: 100px;
+        width: 344px;
+        background: #1b1b1b;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+
+    p {
+        font-size: 50px;
+    }
+
+
+    .anim {
+        color: #fff;
+        font-size: 200px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -36px;
+        right: -49px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .wrapper {
+        height: 200px;
+        width: 357px;
+        position: relative;
+        background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+        border-radius: 10px;
+        cursor: default;
+        animation: animate 1.5s linear infinite;
+    }
+
+    .q {
+        width: 145px;
+        height: 125px;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+    .wrapper .display {
+        z-index: 999;
+        height: 100px;
+        width: 344px;
+        background: #1b1b1b;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+
+
+    p {
+        font-size: 50px;
+    }
+
+    .wrapper {
+        height: 150px;
+        width: 410px;
+        position: relative;
+        background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+        border-radius: 10px;
+        cursor: default;
+        animation: animate 1.5s linear infinite;
+    }
+
+    .wrapper .display {
+        z-index: 999;
+        height: 125px;
+        width: 397px;
+        background: #1b1b1b;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    .anim {
+        color: #fff;
+        font-size: 200px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -36px;
+        right: -49px;
+    }
+}

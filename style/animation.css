@@ -1,0 +1,13 @@
+@keyframes animate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes secAnim {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
